@@ -1,7 +1,7 @@
 {
     "name": "OPMLauncher",
     "productname": "OPMLauncher",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Le Launcher de l'Ultime version de One Piece Minecraft",
     "main": "src/app.js",
     "author": {

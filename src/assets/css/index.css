@@ -1,6 +1,15 @@
 @import "font.css";
 @import 'theme.css';
 
+#fondvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index:-1;
+}
+
 body {
     background-color: var(--background);
     font-family: "Poppins";
