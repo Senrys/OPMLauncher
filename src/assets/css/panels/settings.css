@@ -27,15 +27,14 @@
 }
 
 .nav-box #save {
-    border: solid 4px var(--background-element);
+    border: solid 1px var(--background-element);
     margin: 3rem;
 }
 
 .nav-settings-btn {
     font-size: 50%;
-    border: solid 4px var(--element-color);
+    border: solid 1px var(--element-color);
     padding: 5px 10px;
-    border-radius: 10px;
     width: 70%;
     text-align: center;
     margin: 0.5rem 0;
@@ -62,7 +61,6 @@
 .settings-elements-box {
     background: var(--background-element);
     width: 80%;
-    border-radius: 10px;
     padding: 1.5rem 2rem;
     margin: 0.5rem;
 }
@@ -84,7 +82,6 @@
     font-size: 2rem;
     margin: 1.5rem 0;
     padding: 0.5rem 2rem;
-    border-radius: 2rem;
     text-align: center;
     background: var(--background-transparent);
     color: var(--color);
@@ -120,18 +117,17 @@
 
 .account {
     background: var(--background-element);
-    border: solid 4px var(--background-element);
+    border: solid 1px var(--background-element);
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: calc(400px - 8px);
     height: calc(100px - 8px);
     margin: 1rem;
-    border-radius: 15px;
 }
 
 .account-select {
-    border: solid 4px var(--element-color);
+    border: solid 1px var(--element-color);
 }
 
 .accounts-list #add {
@@ -159,7 +155,6 @@
     height: 70px;
     background: url(../../images/default/setve.png);
     background-size: cover;
-    border-radius: 15px;
     pointer-events: none;
     image-rendering: pixelated;
 }
@@ -192,7 +187,6 @@
     width: 70px;
     height: 70px;
     background: var(--background-transparent);
-    border-radius: 15px;
     font-size: 3rem;
     display: flex;
     justify-content: center;
@@ -235,9 +229,8 @@
     width: 20px;
     height: 10px;
     background: #bbb;
-    border: 4px solid var(--element-color);
+    border: 1px solid var(--element-color);
     transition: background-color .2s, border .2s;
-    border-radius: 18px;
     cursor: pointer;
 }
 
@@ -261,7 +254,6 @@
     left: 9px;
     top: 7px;
     height: 4px;
-    border-radius: 4px;
     background-color: #f5f5f5;
     transition: background-color .2s;
     z-index: 0;
@@ -286,7 +278,6 @@
     border: none;
     color: var(--color);
     padding: 0.5rem 1rem;
-    border-radius: 15px;
     width: 50%;
 }
 
@@ -302,7 +293,6 @@
 .java-path-btn {
     padding: 0.3rem 1rem;
     background: var(--element-color);
-    border-radius: 15px;
     margin: 0 1rem;
     cursor: pointer;
 }
@@ -322,7 +312,6 @@
     border: none;
     color: var(--color);
     padding: 0.5rem 1rem;
-    border-radius: 15px;
     text-align: center;
     width: 6rem;
 }
@@ -339,7 +328,6 @@
 .size-btn {
     padding: 0.3rem 1rem;
     background: var(--element-color);
-    border-radius: 15px;
     margin: 0 1rem;
     cursor: pointer;
 }
@@ -355,7 +343,6 @@
     border: none;
     color: var(--color);
     padding: 0.5rem 1rem;
-    border-radius: 15px;
     text-align: center;
     width: 4rem;
     margin-right: 1rem;
@@ -364,7 +351,6 @@
 .max-files-btn {
     padding: 0.3rem 1rem;
     background: var(--element-color);
-    border-radius: 15px;
     margin: 0 1rem;
     cursor: pointer;
 }
@@ -372,42 +358,40 @@
 .theme-btn {
     margin: 0 1rem;
     padding: calc(0.1rem + 4px) calc(1.5rem + 4px);
-    border-radius: 15px;
     cursor: pointer;
 }
 
 .theme-btn-clair {
     background: var(--light-color);
     color: var(--dark-color);
-    border: 2px solid var(--dark-color);
+    border: 1px solid var(--dark-color);
 }
 
 .theme-btn-sombre {
     background: var(--dark-color);
     color: var(--light-color);
-    border: 2px solid var(--color);
+    border: 1px solid var(--color);
 }
 
 .theme-btn-auto {
     background: var(--background);
     color: var(--color);
-    border: 2px solid var(--color);
+    border: 1px solid var(--color);
 }
 
 .active-theme {
-    border: 4px solid var(--element-color);
+    border: 1px solid var(--element-color);
 }
 
 .close-btn {
     font-size: 0.95rem;
     width: 200px;
     text-align: center;
-    border: 4px solid var(--color);
-    border-radius: 15px;
+    border: 1px solid var(--color);
     padding: 1rem;
     cursor: pointer;
 }
 
 .active-close {
-    border: 4px solid var(--element-color);
+    border: 1px solid var(--element-color);
 }
