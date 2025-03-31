@@ -1,7 +1,7 @@
 {
     "name": "OPMLauncher",
     "productname": "OPMLauncher",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Le Launcher de l'Ultime version de One Piece Minecraft",
     "main": "src/app.js",
     "author": {
@@ -9,7 +9,7 @@
         "email": "contact@luuxis.fr",
         "url": "https://github.com/luuxis"
     },
-    "url": "https://onepieceminecraft.fr/webfolderopm",
+    "url": "http://147.135.129.141/webfolderopm",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
