@@ -1,7 +1,7 @@
 {
     "name": "OPMLauncher",
     "productname": "OPMLauncher",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Le Launcher de l'Ultime version de One Piece Minecraft",
     "main": "src/app.js",
     "author": {
@@ -23,7 +23,7 @@
     },
     "dependencies": {
         "electron-updater": "^6.1.8",
-        "minecraft-java-core": "^3.10.4",
+        "minecraft-java-core": "^4.2.3",
         "node-bdd": "^2.0.4",
         "node-fetch": "^2.7.0",
         "xml-js": "^1.6.11"
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Senrys/OPMLauncher.git"
+        "url": "git+https://github.com/Rykul/OPMLauncherV7.git"
     }
 }
